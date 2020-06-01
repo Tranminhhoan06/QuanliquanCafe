@@ -30,3 +30,5 @@ D:\github\New folder\QuanliquanCafe\Quanlicafe1\Quanlicafe\obj\x86\Debug\Quanlic
 D:\github\New folder\QuanliquanCafe\Quanlicafe1\Quanlicafe\obj\x86\Debug\Quanlicafe.csproj.GenerateResource.Cache
 D:\github\New folder\QuanliquanCafe\Quanlicafe1\Quanlicafe\bin\Debug\Quanlicafe.exe
 D:\github\New folder\QuanliquanCafe\Quanlicafe1\Quanlicafe\bin\Debug\Quanlicafe.pdb
+D:\github\New folder\QuanliquanCafe\Quanlicafe\Quanlicafe\obj\x86\Debug\Quanlicafe.exe
+D:\github\New folder\QuanliquanCafe\Quanlicafe\Quanlicafe\obj\x86\Debug\Quanlicafe.pdb
