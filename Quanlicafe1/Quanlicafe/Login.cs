@@ -6,10 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-<<<<<<< Updated upstream
-=======
-using System.Data;
->>>>>>> Stashed changes
+using Quanlicafe.DAO;
 
 namespace Quanlicafe
 {
@@ -35,23 +32,29 @@ namespace Quanlicafe
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-<<<<<<< Updated upstream
-            fManager f = new fManager();
-            this.Hide();
-            f.ShowDialog();
-            this.Show();
-=======
-            string id = txbUserName.Text;
+            string username = txbUserName.Text;
             string pass = txbPassword.Text;
-            DataProvider d = new DataProvider();
-            d.Login(id, pass);
+            //string query = "SELECT * FROM dbo.TAIKHOAN WHERE UNAME = '" + username + "' and PASS = '" + pass + "'";
+            //DataProvider provider = new DataProvider();
+            //DataTable da = provider.Execute(query);
+            //login.kiemtra(username, pass);
+            loginDAO login = new loginDAO();
+            if(login.Login(username,pass) == true)
+            {
+                fManager f = new fManager();
+                this.Hide();
+                f.ShowDialog();
+                this.Show();
+            }
+            else
+                MessageBox.Show("Tên đăng nhập hoặc mật khẩu không đúng");
         }
 
         private void fLogin_Load(object sender, EventArgs e)
         {
             txbUserName.Text = "ADMIN";
-            txbPassword.Text = "12345678";
->>>>>>> Stashed changes
+            txbPassword.Text = "ABCD1234";
         }
+
     }
 }

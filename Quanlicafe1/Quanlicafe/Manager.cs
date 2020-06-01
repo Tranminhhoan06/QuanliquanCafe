@@ -6,11 +6,9 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-<<<<<<< Updated upstream
 using System.Data.SqlClient;
 using Quanlicafe.DAO;
-=======
->>>>>>> Stashed changes
+using Quanlicafe.DTO;
 
 namespace Quanlicafe
 {
@@ -19,21 +17,16 @@ namespace Quanlicafe
         public fManager()
         {
             InitializeComponent();
-<<<<<<< Updated upstream
-            load();
+
         }
 
-        void load()
-        {
-            string query = "SELECT * FROM dbo.TAIKHOAN";
-            DataProvider provider = new DataProvider();
-            dataGridView1.DataSource = provider.Execute(query);
-        }
 
         private void đăngXuấtToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             this.Close();
+            
         }
+
 
         private void ThôngtinToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -45,12 +38,39 @@ namespace Quanlicafe
         {
             fBill f = new fBill();
             f.ShowDialog();
+
         }
-=======
+
+        void Bill(int id)
+        {
+            lsvBill.Items.Clear();
+            List<Quanlicafe.DTO.Menu> List = MenuDAO.Instance.Getlistmenu(id);
+
+            foreach (Quanlicafe.DTO.Menu item in List)
+            {
+                ListViewItem lsvitem = new ListViewItem(item.NAME.ToString());
+                lsvitem.SubItems.Add(item.SL.ToString());
+                lsvitem.SubItems.Add(item.Total.ToString());
+                lsvBill.Items.Add(lsvitem);
+            }
+
         }
 
 
->>>>>>> Stashed changes
+
+        void LoadSP()
+        {
+            string query = "SELECT NUOCUONG.NAME FROM dbo.NUOCUONG";
+            cbCafe.DataSource = DataProvider.Instance.ExecuteQuery(query);
+        }
+
+        private void fManager_Load(object sender, EventArgs e)
+        {
+
+            Bill(1);
+
+        }
+
 
     }
 }
