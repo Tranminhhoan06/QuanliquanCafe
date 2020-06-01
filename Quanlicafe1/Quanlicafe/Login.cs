@@ -6,7 +6,6 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using Quanlicafe.DAO;
 
 namespace Quanlicafe
 {
@@ -34,26 +33,16 @@ namespace Quanlicafe
         {
             string username = txbUserName.Text;
             string pass = txbPassword.Text;
-            //string query = "SELECT * FROM dbo.TAIKHOAN WHERE UNAME = '" + username + "' and PASS = '" + pass + "'";
-            //DataProvider provider = new DataProvider();
-            //DataTable da = provider.Execute(query);
-            //login.kiemtra(username, pass);
-            loginDAO login = new loginDAO();
-            if(login.Login(username,pass) == true)
-            {
                 fManager f = new fManager();
                 this.Hide();
                 f.ShowDialog();
                 this.Show();
-            }
-            else
-                MessageBox.Show("Tên đăng nhập hoặc mật khẩu không đúng");
         }
 
         private void fLogin_Load(object sender, EventArgs e)
         {
             txbUserName.Text = "ADMIN";
-            txbPassword.Text = "ABCD1234";
+            txbPassword.Text = "1234";
         }
 
     }

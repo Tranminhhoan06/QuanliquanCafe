@@ -34,28 +34,16 @@
             this.btnAdd = new System.Windows.Forms.Button();
             this.cbCafe = new System.Windows.Forms.ComboBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.lsvBill = new System.Windows.Forms.ListView();
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.panel3 = new System.Windows.Forms.Panel();
-            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
-            this.btnDiscount = new System.Windows.Forms.Button();
             this.btnCheck = new System.Windows.Forms.Button();
-            this.adminToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ThôngtinToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.đăngXuấtToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.quảnLíHóaĐơnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.hóaĐơnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
-            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -109,20 +97,11 @@
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.dataGridView1);
             this.panel2.Controls.Add(this.lsvBill);
             this.panel2.Location = new System.Drawing.Point(12, 130);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(344, 221);
             this.panel2.TabIndex = 1;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(74, 58);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(221, 113);
-            this.dataGridView1.TabIndex = 1;
             // 
             // lsvBill
             // 
@@ -141,40 +120,25 @@
             // columnHeader2
             // 
             this.columnHeader2.Text = "Tên món";
+            this.columnHeader2.Width = 176;
             // 
             // columnHeader3
             // 
             this.columnHeader3.Text = "Số lượng";
+            this.columnHeader3.Width = 54;
             // 
             // columnHeader4
             // 
             this.columnHeader4.Text = "Thành tiền";
+            this.columnHeader4.Width = 215;
             // 
             // panel3
             // 
-            this.panel3.Controls.Add(this.numericUpDown2);
-            this.panel3.Controls.Add(this.btnDiscount);
             this.panel3.Controls.Add(this.btnCheck);
             this.panel3.Location = new System.Drawing.Point(12, 357);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(343, 44);
             this.panel3.TabIndex = 2;
-            // 
-            // numericUpDown2
-            // 
-            this.numericUpDown2.Location = new System.Drawing.Point(84, 11);
-            this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(76, 20);
-            this.numericUpDown2.TabIndex = 4;
-            // 
-            // btnDiscount
-            // 
-            this.btnDiscount.Location = new System.Drawing.Point(3, 3);
-            this.btnDiscount.Name = "btnDiscount";
-            this.btnDiscount.Size = new System.Drawing.Size(75, 33);
-            this.btnDiscount.TabIndex = 3;
-            this.btnDiscount.Text = "Giảm giá";
-            this.btnDiscount.UseVisualStyleBackColor = true;
             // 
             // btnCheck
             // 
@@ -185,54 +149,6 @@
             this.btnCheck.Text = "Thanh toán";
             this.btnCheck.UseVisualStyleBackColor = true;
             // 
-            // adminToolStripMenuItem
-            // 
-            this.adminToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ThôngtinToolStripMenuItem,
-            this.đăngXuấtToolStripMenuItem1});
-            this.adminToolStripMenuItem.Name = "adminToolStripMenuItem";
-            this.adminToolStripMenuItem.Size = new System.Drawing.Size(55, 20);
-            this.adminToolStripMenuItem.Text = "Admin";
-            // 
-            // ThôngtinToolStripMenuItem
-            // 
-            this.ThôngtinToolStripMenuItem.Name = "ThôngtinToolStripMenuItem";
-            this.ThôngtinToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
-            this.ThôngtinToolStripMenuItem.Text = "Thông tin cá nhân";
-            this.ThôngtinToolStripMenuItem.Click += new System.EventHandler(this.ThôngtinToolStripMenuItem_Click);
-            // 
-            // đăngXuấtToolStripMenuItem1
-            // 
-            this.đăngXuấtToolStripMenuItem1.Name = "đăngXuấtToolStripMenuItem1";
-            this.đăngXuấtToolStripMenuItem1.Size = new System.Drawing.Size(171, 22);
-            this.đăngXuấtToolStripMenuItem1.Text = "Đăng xuất";
-            // 
-            // menuStrip1
-            // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.adminToolStripMenuItem,
-            this.quảnLíHóaĐơnToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(368, 24);
-            this.menuStrip1.TabIndex = 3;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
-            // quảnLíHóaĐơnToolStripMenuItem
-            // 
-            this.quảnLíHóaĐơnToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.hóaĐơnToolStripMenuItem});
-            this.quảnLíHóaĐơnToolStripMenuItem.Name = "quảnLíHóaĐơnToolStripMenuItem";
-            this.quảnLíHóaĐơnToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
-            this.quảnLíHóaĐơnToolStripMenuItem.Text = "Quản lí ";
-            // 
-            // hóaĐơnToolStripMenuItem
-            // 
-            this.hóaĐơnToolStripMenuItem.Name = "hóaĐơnToolStripMenuItem";
-            this.hóaĐơnToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
-            this.hóaĐơnToolStripMenuItem.Text = "Hóa đơn";
-            this.hóaĐơnToolStripMenuItem.Click += new System.EventHandler(this.hóaĐơnToolStripMenuItem_Click);
-            // 
             // fManager
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -241,22 +157,14 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.menuStrip1);
-            this.MainMenuStrip = this.menuStrip1;
             this.Name = "fManager";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Phần mềm quản lí cafe take away";
-            this.Load += new System.EventHandler(this.fManager_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -270,18 +178,9 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.ListView lsvBill;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.NumericUpDown numericUpDown2;
-        private System.Windows.Forms.Button btnDiscount;
         private System.Windows.Forms.Button btnCheck;
-        private System.Windows.Forms.ToolStripMenuItem adminToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ThôngtinToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem đăngXuấtToolStripMenuItem1;
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem quảnLíHóaĐơnToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem hóaĐơnToolStripMenuItem;
         private System.Windows.Forms.ColumnHeader columnHeader2;
         private System.Windows.Forms.ColumnHeader columnHeader3;
         private System.Windows.Forms.ColumnHeader columnHeader4;
-        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }
