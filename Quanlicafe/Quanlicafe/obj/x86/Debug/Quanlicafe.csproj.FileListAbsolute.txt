@@ -24,3 +24,5 @@ D:\github\New folder\QuanliquanCafe\Quanlicafe\Quanlicafe\obj\x86\Debug\Quanlica
 D:\github\New folder\QuanliquanCafe\Quanlicafe\Quanlicafe\obj\x86\Debug\Quanlicafe.fManager.resources
 D:\github\New folder\QuanliquanCafe\Quanlicafe\Quanlicafe\obj\x86\Debug\Quanlicafe.Properties.Resources.resources
 D:\github\New folder\QuanliquanCafe\Quanlicafe\Quanlicafe\obj\x86\Debug\Quanlicafe.csproj.GenerateResource.Cache
+D:\github\New folder\QuanliquanCafe\Quanlicafe\Quanlicafe\bin\Debug\Quanlicafe.exe
+D:\github\New folder\QuanliquanCafe\Quanlicafe\Quanlicafe\bin\Debug\Quanlicafe.pdb

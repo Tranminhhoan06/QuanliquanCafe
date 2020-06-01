@@ -36,5 +36,11 @@ namespace Quanlicafe
             dataProvider d = new dataProvider();
             d.login(id, pass);
         }
+
+        private void fLogin_Load(object sender, EventArgs e)
+        {
+            txbUserName.Text = "ADMIN";
+            txbPassword.Text = "1234";
+        }
     }
 }

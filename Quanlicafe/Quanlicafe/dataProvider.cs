@@ -10,10 +10,11 @@ namespace Quanlicafe
     {
         public void login(string id, string pass)
         {
-            fLogin fl = new fLogin();
             fManager f = new fManager();
             if (id == "ADMIN" && pass == "1234")
+            {
                 f.ShowDialog();
+            }
             else
                 MessageBox.Show("Mật khẩu hoặc tên đăng nhập sai. Mời nhập lại");
         }

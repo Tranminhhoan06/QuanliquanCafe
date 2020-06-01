@@ -88,6 +88,12 @@
             // cbCafe
             // 
             this.cbCafe.FormattingEnabled = true;
+            this.cbCafe.Items.AddRange(new object[] {
+            "Cà phê sữa",
+            "Cà phê đen",
+            "Sữa tươi",
+            "Trà chanh",
+            "Nước cam"});
             this.cbCafe.Location = new System.Drawing.Point(3, 3);
             this.cbCafe.Name = "cbCafe";
             this.cbCafe.Size = new System.Drawing.Size(338, 21);
