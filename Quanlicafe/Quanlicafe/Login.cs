@@ -31,10 +31,12 @@ namespace Quanlicafe
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            string id = txbUserName.Text;
+            string username = txbUserName.Text;
             string pass = txbPassword.Text;
-            dataProvider d = new dataProvider();
-            d.login(id, pass);
+                fManager f = new fManager();
+                this.Hide();
+                f.ShowDialog();
+                this.Show();
         }
 
         private void fLogin_Load(object sender, EventArgs e)
@@ -42,5 +44,6 @@ namespace Quanlicafe
             txbUserName.Text = "ADMIN";
             txbPassword.Text = "1234";
         }
+
     }
 }
