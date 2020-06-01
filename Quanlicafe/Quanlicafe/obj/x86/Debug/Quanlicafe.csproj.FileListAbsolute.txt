@@ -32,3 +32,10 @@ D:\github\New folder\QuanliquanCafe\Quanlicafe1\Quanlicafe\bin\Debug\Quanlicafe.
 D:\github\New folder\QuanliquanCafe\Quanlicafe1\Quanlicafe\bin\Debug\Quanlicafe.pdb
 D:\github\New folder\QuanliquanCafe\Quanlicafe\Quanlicafe\obj\x86\Debug\Quanlicafe.exe
 D:\github\New folder\QuanliquanCafe\Quanlicafe\Quanlicafe\obj\x86\Debug\Quanlicafe.pdb
+D:\github\New folder\QuanliquanCafe\Quanlicafe\Quanlicafe\bin\Debug\Quanlicafe.exe
+D:\github\New folder\QuanliquanCafe\Quanlicafe\Quanlicafe\bin\Debug\Quanlicafe.pdb
+D:\github\New folder\QuanliquanCafe\Quanlicafe\Quanlicafe\obj\x86\Debug\Quanlicafe.csprojResolveAssemblyReference.cache
+D:\github\New folder\QuanliquanCafe\Quanlicafe\Quanlicafe\obj\x86\Debug\Quanlicafe.fLogin.resources
+D:\github\New folder\QuanliquanCafe\Quanlicafe\Quanlicafe\obj\x86\Debug\Quanlicafe.fManager.resources
+D:\github\New folder\QuanliquanCafe\Quanlicafe\Quanlicafe\obj\x86\Debug\Quanlicafe.Properties.Resources.resources
+D:\github\New folder\QuanliquanCafe\Quanlicafe\Quanlicafe\obj\x86\Debug\Quanlicafe.csproj.GenerateResource.Cache
